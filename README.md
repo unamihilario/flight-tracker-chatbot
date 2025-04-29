@@ -35,7 +35,7 @@ TeoBot is a web-based chatbot that helps users track flights and engage in conve
 
 ## API Keys
 
-The application requires two API keys:
+The application required two API keys:
 
 1. **Google Gemini API Key**: For the AI chat functionality
 2. **Aerodatabox API Key**: For flight tracking
