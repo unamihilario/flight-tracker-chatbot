@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TeoBot</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="ig-chat">
+      <div class="ig-header">
+        <div class="avatar">🤖</div>
+        <div class="ig-info">
+          <div class="ig-name">TeoBot</div>
+          <div class="ig-status">Active now</div>
+        </div>
+      </div>
+
+      <div class="messages" id="chat-messages"></div>
+      <div class="typing" id="typing-indicator" style="display: none">
+        🤖 TeoBot is typing...
+      </div>
+
+      <form id="form" class="ig-input-area">
+        <input
+          type="text"
+          id="input"
+          placeholder="Message..."
+          autocomplete="off"
+          required
+        />
+        <button type="submit">➤</button>
+      </form>
+    </div>
+
+    <script src="chat.js"></script>
+  </body>
+</html>

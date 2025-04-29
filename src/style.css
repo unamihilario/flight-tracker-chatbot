@@ -1,0 +1,115 @@
+
+body {
+  background: #0a1a2f;
+  color: #fff;
+  font-family: "Segoe UI", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.ig-chat {
+  width: 400px;
+  background: #152d4a;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+}
+
+.ig-header {
+  background: #1c3c60;
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #2a4c75;
+}
+
+.avatar {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.ig-info .ig-name {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.ig-info .ig-status {
+  font-size: 12px;
+  color: #a3c4e2;
+}
+
+.messages {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.message {
+  max-width: 80%;
+  margin-bottom: 10px;
+  padding: 10px 14px;
+  border-radius: 20px;
+  line-height: 1.4;
+  position: relative;
+  word-wrap: break-word;
+}
+
+.message.bot {
+  background: #263f5c;
+  align-self: flex-start;
+  border-bottom-left-radius: 0;
+}
+
+.message.user {
+  background: #3182ce;
+  align-self: flex-end;
+  border-bottom-right-radius: 0;
+}
+
+.ig-input-area {
+  display: flex;
+  border-top: 1px solid #2a4c75;
+}
+
+.ig-input-area input {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  background: #0f2139;
+  color: white;
+  font-size: 14px;
+}
+
+.ig-input-area button {
+  background: #3182ce;
+  border: none;
+  padding: 0 20px;
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+}
+
+.option-button {
+  background: #24476f;
+  color: white;
+  padding: 8px 12px;
+  margin: 4px 2px;
+  border-radius: 12px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 13px;
+}
+
+.typing {
+  padding: 8px 12px;
+  color: #a3c4e2;
+  font-size: 14px;
+}
